@@ -1,0 +1,43 @@
+% Modelo da Raquel - Este modelo foi baseado em: modelo-ufpr.tex,v 1.1 2003/06/30 
+% incluir o pacote estilo.
+% <mariane.raquel@ymail.com>
+
+\documentclass[normaltoc, ruledheader]{abnt}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{graphicx}	
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{../../latex/estilo}
+\usepackage{url}
+\usepackage[font=small,labelfont=bf]{caption}
+
+\pagestyle{ruledheader}
+\setlength{\headheight}{15pt}
+
+% --------- Início do Documento ---------
+
+\begin{document}
+
+% --------- Capa ---------- %
+\begin{titlepage}
+\input{../../latex/cabecalho}
+
+\begin{center}
+\vfill
+\begin{Large}
+\textbf{ \textsc{Título}} \\[7cm]            
+\end{Large}
+% Aluno e Orientador
+Mariane Raquel Silva Gonçalves	 \\[3cm]
+% Data
+Belo Horizonte \\ Abril de 2012 \\ 
+\end{center}
+\end{titlepage}
+% ------- Fim Capa -------- %
+
+\include{conteudo}
+
+\end{document}
